@@ -8,9 +8,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/",
+  "start_url": "/WeDoVue/dist",
   "background_color": "#20a05e",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/WeDoVue/dist",
   "theme_color": "#20a05e"
 }
