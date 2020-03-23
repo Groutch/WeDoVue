@@ -6,7 +6,7 @@
         <div class="loader"></div>
         <span class="text"></span>
       </div>
-      <h1>{{ title }}</h1>
+      <h1>{{ title }} <button v-on:click="reload" class="btn btn-outline-primary"><i class="fas fa-sync"></i></button></h1>
       <input id="inputAdd" v-model="currentTask" v-on:keyup.13="addTask">
       <button class="btn btn-success" v-on:click="addTask">+</button>
       <hr style="width:10%">
@@ -44,6 +44,10 @@ export default {
     this.loadToDo();
   },
   methods: {
+    reload: function(){
+      this.isVisible=true;  
+      this.loadToDo();
+    },
     addTask : function (){
       if (this.currentTask!=""){
         this.isVisible=true;
