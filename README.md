@@ -1,4 +1,5 @@
 # online-todo
+Front for my tiny node/mongoDB/vue online todolist
 
 ## Project setup
 ```
