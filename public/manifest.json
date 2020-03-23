@@ -1,0 +1,16 @@
+{
+  "short_name": "PWA_WeDo",
+  "name": "PWA WeDo",
+  "icons": [
+    {
+      "src": "./512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#20a05e",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#20a05e"
+}
